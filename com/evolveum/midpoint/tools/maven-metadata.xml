@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.evolveum.midpoint</groupId>
-  <artifactId>tools</artifactId>
-  <versioning>
-    <release>4.0.3.pre1</release>
-    <versions>
-      <version>4.0.3.pre1</version>
-    </versions>
-    <lastUpdated>20200624060230</lastUpdated>
-  </versioning>
+  <plugins>
+    <plugin>
+      <name>midPoint Tools - schema dist maven plugin</name>
+      <prefix>schema-dist</prefix>
+      <artifactId>schema-dist-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
 </metadata>
